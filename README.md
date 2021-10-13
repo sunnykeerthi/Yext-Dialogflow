@@ -17,7 +17,7 @@
 - Unzip ngrok
 - paste the file in `/usr/local/bin`
 - In terminal, type `ngrok http 3000`
-- Copy the *Forwarding https* link into a notepad.
+- Copy the **Forwarding https** link into a notepad.
 
 ### Part 3
 
