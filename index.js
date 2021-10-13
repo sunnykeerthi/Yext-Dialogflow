@@ -10,8 +10,8 @@ app.get("/", (req, res) => {
   res.send("Server Is Working......");
 });
 const core = provideCore({
-  apiKey: "970744e5493edc967d824c1a50904b69",
-  experienceKey: "schwab_answers_experience",
+  apiKey: "yourPrivateKey",
+  experienceKey: "yourExperienceKey",
   locale: "en",
   experienceVersion: "STAGING",
   endpoints: {
