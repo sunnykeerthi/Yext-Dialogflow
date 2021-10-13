@@ -9,8 +9,9 @@
 - Clone the Repository into local.
 - Open it in your favourite editor.
 - Open the folder by typing `cd Yext-Dialogflow`.
+- Open the index.js file and add your `apiKey` and `experienceKey`. These can be found in **Experience Details** when we open any Experience.
 - run `npm install`.
-- once all the dependencies are installed, type in `node index.js`
+- once all the dependencies are installed, type in **node index.js**
 
 ### Part 2
 - Unzip ngrok
