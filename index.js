@@ -5,6 +5,7 @@ const app = express();
 var axios = require("axios");
 const { provideCore } = require("@yext/answers-core");
 var h2p = require("html2plaintext");
+const removeMd = require("remove-markdown");
 
 app.use(express.json());
 app.get("/", (req, res) => {
@@ -138,7 +139,7 @@ app.post("/webhook", (req, res) => {
       if (answerText) {
         var ansr = {
           type: "info",
-          subtitle: answerText,
+          subtitle: removeMd(answerText),
         };
         richResult.richContent[0].push(ansr);
       }
