@@ -139,7 +139,7 @@ app.post("/webhook", (req, res) => {
       if (answerText) {
         var ansr = {
           type: "info",
-          subtitle: removeMd(answerText),
+          subtitle: answerText,
         };
         richResult.richContent[0].push(ansr);
       }
